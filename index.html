@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EcoCentium — La plateforme éducative collaborative qui réunit les autodidactes ambitieux pour apprendre, collaborer et construire des projets à impact." />
+  <title>EcoCentium — Réinventons l'éducation à travers la collaboration</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== ANNOUNCEMENT BAR ========== -->
+  <div class="announcement-bar" id="announcement-bar">
+    <span data-i18n="announcement_text">MVP en cours de construction —</span>
+    <a href="#join" class="announcement-link" data-i18n="announcement_cta">Rejoins les Fondateurs et sois le premier à le tester →</a>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="logo.png" alt="EcoCentium" class="nav-logo-img" />
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features" class="nav-link" data-i18n="nav_features">Fonctionnalités</a></li>
+        <li><a href="#vision" class="nav-link" data-i18n="nav_vision">Vision</a></li>
+        <li><a href="#how" class="nav-link" data-i18n="nav_how">Comment ça marche</a></li>
+        <li><a href="#faq" class="nav-link" data-i18n="nav_faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" title="Switch language">EN</button>
+        <a href="#cta-final" class="btn btn-primary btn-sm" data-i18n="nav_cta">Rejoins les Fondateurs</a>
+        <button class="nav-burger" id="nav-burger" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-bg"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="eyebrow animate-fade-up">
+            <span class="eyebrow-dot"></span>
+            <span data-i18n="hero_eyebrow">La plateforme éducative qui change le monde</span>
+          </span>
+
+          <h1 class="hero-headline animate-fade-up delay-1" data-i18n-html="hero_h1">
+            Apprends.<br />
+            Collabore.<br />
+            <span class="gradient-text">Change le monde.</span>
+          </h1>
+
+          <p class="hero-hook animate-fade-up delay-2" data-i18n="hero_hook">Tu consommes du contenu. Tu veux enfin passer à l'action.</p>
+
+          <p class="hero-tagline animate-fade-up delay-2" data-i18n="hero_tagline">Le réseau social éducatif où tu construis des projets à impact avec d'autres autodidactes.</p>
+
+          <p class="hero-subheadline animate-fade-up delay-2" data-i18n="hero_sub">
+            EcoCentium réunit les autodidactes ambitieux qui veulent apprendre autrement, construire des projets à impact et trouver leur communauté.
+          </p>
+
+          <div class="hero-actions animate-fade-up delay-3">
+            <a href="#cta-final" class="btn btn-primary btn-lg">
+              <span data-i18n="hero_cta_primary">Rejoins la bêta</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#how" class="btn btn-ghost btn-lg">
+              <span data-i18n="hero_cta_ghost">Voir comment ça marche</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+          </div>
+          <p class="hero-cta-sub animate-fade-up delay-3" data-i18n="hero_cta_sub">Deviens membre fondateur et influence le produit</p>
+
+          <div class="hero-proof animate-fade-up delay-4">
+            <div class="founder-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span data-i18n="hero_badge">Accès fondateur</span>
+            </div>
+            <div class="proof-text">
+              <span data-i18n-html="hero_proof">Sois l'un des <strong>membres fondateurs</strong> d'EcoCentium — tu façonnes le produit.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual animate-fade-up delay-2">
+          <div class="hero-logo-visual">
+            <div class="hero-logo-glow"></div>
+            <img src="logo.png" alt="EcoCentium — Réinventons l'éducation à travers la collaboration" class="hero-logo-img" />
+          </div>
+          <div class="mockup-frame">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="mockup-title-bar">Dashboard — EcoCentium</div>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="sidebar-logo">
+                  <span class="logo-dot-sm"></span>
+                  <span>EC</span>
+                </div>
+                <div class="sidebar-items">
+                  <div class="sidebar-item active">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                  </div>
+                  <div class="sidebar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+                  </div>
+                  <div class="sidebar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  </div>
+                  <div class="sidebar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mockup-main">
+                <div class="mockup-topbar">
+                  <span class="mockup-greeting">Bonjour, Thomas 👋</span>
+                  <div class="mockup-avatar-sm"></div>
+                </div>
+
+                <div class="mockup-stats">
+                  <div class="mockup-stat-card">
+                    <div class="stat-value">847</div>
+                    <div class="stat-label">Points</div>
+                  </div>
+                  <div class="mockup-stat-card">
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">Objectifs</div>
+                  </div>
+                  <div class="mockup-stat-card">
+                    <div class="stat-value">23</div>
+                    <div class="stat-label">Collabs</div>
+                  </div>
+                </div>
+
+                <div class="mockup-cards">
+                  <div class="mockup-card">
+                    <div class="card-badge badge-blue">Objectif individuel</div>
+                    <div class="card-title-mock">Lancer mon SaaS</div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 65%;"></div>
+                    </div>
+                    <div class="card-footer-mock">
+                      <div class="mini-avatars">
+                        <div class="mini-av" style="background:#2E86C1;"></div>
+                        <div class="mini-av" style="background:#2E8B57;"></div>
+                        <div class="mini-av" style="background:#00B4D8;"></div>
+                      </div>
+                      <span class="card-meta">+5 t'aident</span>
+                    </div>
+                  </div>
+
+                  <div class="mockup-card">
+                    <div class="card-badge badge-green">Objectif collectif</div>
+                    <div class="card-title-mock">Éducation Afrique</div>
+                    <div class="progress-bar">
+                      <div class="progress-fill green" style="width: 38%;"></div>
+                    </div>
+                    <div class="card-footer-mock">
+                      <div class="mini-avatars">
+                        <div class="mini-av" style="background:#F4A261;"></div>
+                        <div class="mini-av" style="background:#FFD700;"></div>
+                        <div class="mini-av" style="background:#2E86C1;"></div>
+                      </div>
+                      <span class="card-meta">42 membres</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mockup-problem-card">
+                  <div class="card-badge badge-aurora">Problème à résoudre</div>
+                  <div class="card-title-mock">Accès à l'eau potable</div>
+                  <div class="problem-collab">
+                    <div class="collab-pulse"></div>
+                    <span>18 solutions proposées</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VALUE BAR ========== -->
+  <div class="value-bar">
+    <div class="container">
+      <div class="value-bar-inner">
+        <div class="value-item">
+          <span class="value-action" data-i18n="value1_action">Tu postes un projet</span>
+          <span class="value-arrow">→</span>
+          <span class="value-result" data-i18n="value1_result">des gens t'aident</span>
+        </div>
+        <div class="value-divider"></div>
+        <div class="value-item">
+          <span class="value-action" data-i18n="value2_action">Tu rejoins une mission</span>
+          <span class="value-arrow">→</span>
+          <span class="value-result" data-i18n="value2_result">tu construis avec d'autres</span>
+        </div>
+        <div class="value-divider"></div>
+        <div class="value-item">
+          <span class="value-action" data-i18n="value3_action">Tu contribues</span>
+          <span class="value-arrow">→</span>
+          <span class="value-result" data-i18n="value3_result">tu gagnes de la reconnaissance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== MEMBRES FONDATEURS ========== -->
+  <section class="proof-bar" id="proof">
+    <div class="container">
+      <div class="founders-inner">
+        <div class="founders-left">
+          <div class="founders-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span data-i18n="founders_tag">Accès fondateur</span>
+          </div>
+          <h3 class="founders-title" data-i18n="founders_title">Rejoins les membres fondateurs</h3>
+          <p class="founders-sub" data-i18n="founders_sub">EcoCentium est en construction. Les premiers membres façonnent le produit, orientent les priorités et obtiennent un accès en avant-première.</p>
+        </div>
+        <div class="founders-right">
+          <div class="founder-number-block">
+            <div class="founder-label" data-i18n="founders_label">Tu seras membre fondateur</div>
+            <div class="founder-number"># <span id="founder-count">—</span></div>
+            <div class="founder-hint" data-i18n="founders_hint">Le numéro s'attribue à ton inscription</div>
+          </div>
+          <div class="founders-perks">
+            <div class="perk">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-i18n="perk_1">Accès prioritaire au lancement</span>
+            </div>
+            <div class="perk">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-i18n="perk_2">Badge "Membre Fondateur" sur ton profil</span>
+            </div>
+            <div class="perk">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-i18n="perk_3">Ton feedback influence directement le produit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROBLÈME ========== -->
+  <section class="section problem-section" id="problem">
+    <div class="container">
+      <div class="section-inner">
+        <div class="problem-text reveal">
+          <span class="section-tag" data-i18n="problem_tag">Le problème</span>
+          <h2 class="section-headline" data-i18n-html="problem_h2">
+            Tu veux apprendre et construire quelque chose de grand.<br />
+            <span class="text-secondary">Mais tu te sens seul.</span>
+          </h2>
+          <p class="section-subtext" data-i18n="problem_sub">
+            Tu passes des heures sur YouTube, des plateformes de cours, des podcasts. Tu consommes. Tu prends des notes. Mais rien ne change vraiment.
+          </p>
+          <div class="pain-points">
+            <div class="pain-point">
+              <div class="pain-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <div data-i18n-html="pain1"><strong>Tu trouves des cours en ligne</strong>, mais ils ne t'aident pas à passer à l'action concrètement.</div>
+            </div>
+            <div class="pain-point">
+              <div class="pain-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <div data-i18n-html="pain2"><strong>Tu veux rencontrer des gens ambitieux</strong>, mais les réseaux sociaux ne sont que du bruit.</div>
+            </div>
+            <div class="pain-point">
+              <div class="pain-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <div data-i18n-html="pain3"><strong>Tu as des idées, des objectifs</strong> — mais aucun espace pour les concrétiser avec d'autres.</div>
+            </div>
+          </div>
+          <div class="transition-text" data-i18n-html="transition">
+            Et si l'éducation pouvait être <em>autre chose</em> ?
+          </div>
+        </div>
+
+        <div class="problem-visual reveal delay-1">
+          <div class="vs-card vs-before">
+            <div class="vs-label" data-i18n="before_label">Avant EcoCentium</div>
+            <div class="vs-items">
+              <div class="vs-item bad">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span data-i18n="before_1">Apprendre seul, sans direction</span>
+              </div>
+              <div class="vs-item bad">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span data-i18n="before_2">Consommation passive de contenu</span>
+              </div>
+              <div class="vs-item bad">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span data-i18n="before_3">Zéro passage à l'action</span>
+              </div>
+              <div class="vs-item bad">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span data-i18n="before_4">Isolé dans ses projets</span>
+              </div>
+            </div>
+          </div>
+          <div class="vs-arrow">→</div>
+          <div class="vs-card vs-after">
+            <div class="vs-label" data-i18n="after_label">Avec EcoCentium</div>
+            <div class="vs-items">
+              <div class="vs-item good">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="after_1">Apprendre avec une communauté</span>
+              </div>
+              <div class="vs-item good">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="after_2">Transformer chaque cours en action</span>
+              </div>
+              <div class="vs-item good">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="after_3">Objectifs concrets, suivis, réalisés</span>
+              </div>
+              <div class="vs-item good">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="after_4">Collaborer sur des projets à impact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VISION / MISSION ========== -->
+  <section class="section vision-section" id="vision">
+    <div class="vision-bg">
+      <div class="orb orb-vision-1"></div>
+      <div class="orb orb-vision-2"></div>
+    </div>
+    <div class="container">
+        <div class="vision-inner reveal">
+        <span class="section-tag" data-i18n="vision_tag">Notre vision</span>
+        <h2 class="section-headline centered" data-i18n-html="vision_h2">
+          Nous croyons que l'éducation<br />
+          <span class="gradient-text">peut changer le monde.</span>
+        </h2>
+        <p class="vision-body" data-i18n-html="vision_body">
+          EcoCentium est plus qu'une plateforme. C'est un mouvement. Nous construisons un <strong>cerveau collectif au service de l'humanité</strong> — un espace où chaque apprentissage devient une action, et chaque action devient un impact.
+        </p>
+        <div class="vision-pillars">
+          <div class="pillar reveal">
+            <div class="pillar-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <h3 data-i18n="pillar1_title">Éducation holistique</h3>
+            <p data-i18n="pillar1_body">Des contenus de qualité, des experts, une approche humaine et pratique tournée vers l'action.</p>
+          </div>
+          <div class="pillar reveal delay-1">
+            <div class="pillar-icon green">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 data-i18n="pillar2_title">Intelligence collective</h3>
+            <p data-i18n="pillar2_body">La force du groupe pour résoudre des problèmes que nul ne peut affronter seul.</p>
+          </div>
+          <div class="pillar reveal delay-2">
+            <div class="pillar-icon aurora">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 data-i18n="pillar3_title">Impact réel</h3>
+            <p data-i18n="pillar3_body">Chaque action sur la plateforme contribue à des objectifs individuels, collectifs et planétaires.</p>
+          </div>
+          <div class="pillar reveal delay-3">
+            <div class="pillar-icon gold">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 data-i18n="pillar4_title">Écologie au centre</h3>
+            <p data-i18n="pillar4_body">La lutte contre le changement climatique est un objectif fondateur, pas une option.</p>
+          </div>
+        </div>
+
+        <blockquote class="vision-quote reveal">
+          <div class="quote-mark">"</div>
+          <p data-i18n="quote_text">L'éducation est l'arme la plus puissante que vous puissiez utiliser pour changer le monde.</p>
+          <cite>— Nelson Mandela</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMMENT ÇA MARCHE — CORE LOOP ========== -->
+  <section class="section how-section" id="how">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="how_tag">Comment ça marche</span>
+        <h2 class="section-headline centered" data-i18n-html="how_h2">
+          Une boucle de transformation,<br />
+          <span class="gradient-text">pas une app de contenu.</span>
+        </h2>
+        <p class="section-subtext centered" data-i18n="how_sub">EcoCentium ne fonctionne pas comme une plateforme de cours. Chaque action te transforme — et alimente la suivante.</p>
+      </div>
+
+      <div class="loop-container reveal">
+        <div class="loop-label-top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          <span data-i18n="loop_label">La boucle se répète — indéfiniment</span>
+        </div>
+
+        <div class="loop-grid">
+
+          <div class="loop-step reveal">
+            <div class="loop-step-top">
+              <div class="loop-num">01</div>
+              <div class="loop-icon blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-blue" data-i18n="step1_badge">Publier</div>
+            <h3 data-i18n="step1_title">Tu publies.</h3>
+            <p data-i18n="step1_body">Un problème, un projet, une question. Pas du contenu — une demande d'action qui déclenche la boucle.</p>
+          </div>
+
+          <div class="loop-arrow reveal delay-1">→</div>
+
+          <div class="loop-step reveal delay-1">
+            <div class="loop-step-top">
+              <div class="loop-num">02</div>
+              <div class="loop-icon green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-green" data-i18n="step2_badge">Contribuer</div>
+            <h3 data-i18n="step2_title">Quelqu'un répond.</h3>
+            <p data-i18n="step2_body">Le magic moment : tu n'es plus seul. Un autre membre t'aide, propose, réagit.</p>
+          </div>
+
+          <div class="loop-arrow reveal delay-2">→</div>
+
+          <div class="loop-step reveal delay-2">
+            <div class="loop-step-top">
+              <div class="loop-num">03</div>
+              <div class="loop-icon aurora">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-aurora" data-i18n="step3_badge">Construire</div>
+            <h3 data-i18n="step3_title">La parole devient action.</h3>
+            <p data-i18n="step3_body">La discussion se transforme en projet, en collaboration, en quelque chose de concret.</p>
+          </div>
+
+          <div class="loop-step reveal delay-1">
+            <div class="loop-step-top">
+              <div class="loop-num">04</div>
+              <div class="loop-icon gold">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-gold" data-i18n="step4_badge">Apprendre</div>
+            <h3 data-i18n="step4_title">Tu apprends en faisant.</h3>
+            <p data-i18n="step4_body">Pas de cours passifs. L'apprentissage émerge de l'action, de la collaboration, de l'échange réel.</p>
+          </div>
+
+          <div class="loop-arrow loop-arrow-reverse reveal delay-2">←</div>
+
+          <div class="loop-step reveal delay-2">
+            <div class="loop-step-top">
+              <div class="loop-num">05</div>
+              <div class="loop-icon blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-blue" data-i18n="step5_badge">Progresser</div>
+            <h3 data-i18n="step5_title">Ta progression est visible.</h3>
+            <p data-i18n="step5_body">Points, compétences, contributions validées. La preuve par l'action — pas par déclaration.</p>
+          </div>
+
+          <div class="loop-arrow loop-arrow-reverse reveal delay-1">←</div>
+
+          <div class="loop-step reveal">
+            <div class="loop-step-top">
+              <div class="loop-num">06</div>
+              <div class="loop-icon gold">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+            </div>
+            <div class="loop-badge badge-gold" data-i18n="step6_badge">Reconnaissance</div>
+            <h3 data-i18n="step6_title">La communauté valide.</h3>
+            <p data-i18n="step6_body">Labels, visibilité, crédibilité. Plus tu contribues, plus tu comptes. Et la boucle recommence.</p>
+          </div>
+
+        </div>
+
+        <div class="loop-insight reveal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span data-i18n-html="loop_insight">Chaque cycle te rend <strong>plus actif, plus reconnu, plus impactant</strong> — c'est une machine à transformer des individus en acteurs utiles.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FONCTIONNALITÉS / BÉNÉFICES ========== -->
+  <section class="section features-section" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="features_tag">Fonctionnalités</span>
+        <h2 class="section-headline centered" data-i18n-html="features_h2">
+          Tout ce dont tu as besoin<br />
+          <span class="gradient-text">pour passer à l'action.</span>
+        </h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 data-i18n="feat1_title">Apprends à ton rythme</h3>
+          <p data-i18n="feat1_body">Un espace de cours structuré, curated par des experts. Des contenus de qualité, organisés pour te faire progresser — pas juste consommer.</p>
+          <div class="feature-tag" data-i18n="feat1_tag">Espace de cours</div>
+        </div>
+
+        <div class="feature-card reveal delay-1">
+          <div class="feature-icon green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 data-i18n="feat2_title">Trouve ta tribu</h3>
+          <p data-i18n="feat2_body">Des échanges peer-to-peer authentiques. Pose tes questions, partage tes avancées, aide les autres — et construis des relations qui durent.</p>
+          <div class="feature-tag green" data-i18n="feat2_tag">Échanges P2P</div>
+        </div>
+
+        <div class="feature-card reveal delay-2">
+          <div class="feature-icon aurora">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3 data-i18n="feat3_title">Reste focus sur tes objectifs</h3>
+          <p data-i18n="feat3_body">Un tableau de bord visuel pour suivre tes objectifs en cours, mesurer ta progression et rester motivé sur le long terme.</p>
+          <div class="feature-tag aurora" data-i18n="feat3_tag">Suivi des objectifs</div>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon gold">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 data-i18n="feat4_title">Donne et reçois de l'aide</h3>
+          <p data-i18n="feat4_body">Un système de réputation qui valorise l'entraide. Plus tu aides les autres, plus tu es reconnu — et récompensé — au sein de la communauté.</p>
+          <div class="feature-tag gold" data-i18n="feat4_tag">Système de réputation</div>
+        </div>
+
+        <div class="feature-card reveal delay-1 feature-card-wide">
+          <div class="feature-icon aurora">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 data-i18n="feat5_title">Rejoins un mouvement global</h3>
+          <p data-i18n="feat5_body">EcoCentium est conçu pour devenir un cerveau collectif mondial. Chaque utilisateur contribue à quelque chose de plus grand que lui — des solutions aux défis de notre époque.</p>
+          <div class="feature-tag green" data-i18n="feat5_tag">Intelligence collective · Impact planétaire</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POURQUOI C'EST DIFFÉRENT ========== -->
+  <section class="section different-section" id="different">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="diff_tag">Différenciation</span>
+        <h2 class="section-headline centered" data-i18n-html="diff_h2">
+          EcoCentium n'est pas<br />
+          <span class="gradient-text">une plateforme de cours de plus.</span>
+        </h2>
+      </div>
+
+      <div class="comparison-table reveal">
+        <div class="comparison-header">
+          <div class="comp-col-label"></div>
+          <div class="comp-col-label other" data-i18n="comp_other_label">Autres plateformes</div>
+          <div class="comp-col-label eco" data-i18n="comp_eco_label">EcoCentium</div>
+        </div>
+        <div class="comparison-row">
+          <div class="comp-feature" data-i18n="comp_row1_feat">Mode d'apprentissage</div>
+          <div class="comp-other" data-i18n="comp_row1_other">Consommation passive</div>
+          <div class="comp-eco">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="comp_row1_eco">Apprentissage actif &amp; collaboratif</span>
+          </div>
+        </div>
+        <div class="comparison-row">
+          <div class="comp-feature" data-i18n="comp_row2_feat">Environnement</div>
+          <div class="comp-other" data-i18n="comp_row2_other">Solitude</div>
+          <div class="comp-eco">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="comp_row2_eco">Communauté engagée</span>
+          </div>
+        </div>
+        <div class="comparison-row">
+          <div class="comp-feature" data-i18n="comp_row3_feat">Résultat</div>
+          <div class="comp-other" data-i18n="comp_row3_other">Simple certification</div>
+          <div class="comp-eco">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="comp_row3_eco">Impact réel, projets concrets</span>
+          </div>
+        </div>
+        <div class="comparison-row">
+          <div class="comp-feature" data-i18n="comp_row4_feat">Approche</div>
+          <div class="comp-other" data-i18n="comp_row4_other">Fragmentée</div>
+          <div class="comp-eco">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="comp_row4_eco">Holistique (apprendre + agir + collaborer)</span>
+          </div>
+        </div>
+        <div class="comparison-row">
+          <div class="comp-feature" data-i18n="comp_row5_feat">Écologie</div>
+          <div class="comp-other" data-i18n="comp_row5_other">Absente</div>
+          <div class="comp-eco">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="comp_row5_eco">Objectif fondateur central</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POUR QUI ========== -->
+  <section class="section for-who-section" id="for-who">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="who_tag">Pour qui</span>
+        <h2 class="section-headline centered" data-i18n-html="who_h2">
+          EcoCentium est fait<br />
+          <span class="gradient-text">pour toi si...</span>
+        </h2>
+      </div>
+
+      <div class="profiles-grid">
+        <div class="profile-card reveal">
+          <div class="profile-avatar blue">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3 data-i18n="who1_title">L'autodidacte ambitieux</h3>
+          <p data-i18n="who1_body">Tu apprends par toi-même, tu cherches à développer des compétences concrètes et tu veux un cadre qui t'aide à aller au bout de tes projets.</p>
+          <div class="profile-tags">
+            <span class="ptag" data-i18n="who1_tag1">Autodidacte</span>
+            <span class="ptag" data-i18n="who1_tag2">En reconversion</span>
+            <span class="ptag" data-i18n="who1_tag3">Curieux</span>
+          </div>
+        </div>
+
+        <div class="profile-card reveal delay-1">
+          <div class="profile-avatar green">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3 data-i18n="who2_title">L'entrepreneur à impact</h3>
+          <p data-i18n="who2_body">Tu veux créer un projet utile, rencontrer des co-fondateurs ou collaborateurs qui partagent ta vision, et construire quelque chose qui compte vraiment.</p>
+          <div class="profile-tags">
+            <span class="ptag" data-i18n="who2_tag1">Entrepreneur</span>
+            <span class="ptag" data-i18n="who2_tag2">Startup</span>
+            <span class="ptag" data-i18n="who2_tag3">Impact</span>
+          </div>
+        </div>
+
+        <div class="profile-card reveal delay-2">
+          <div class="profile-avatar aurora">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 data-i18n="who3_title">Le citoyen engagé</h3>
+          <p data-i18n="who3_body">Tu veux contribuer à quelque chose de plus grand que toi. Résoudre des problèmes réels, aider les autres à apprendre, et laisser une empreinte positive sur le monde.</p>
+          <div class="profile-tags">
+            <span class="ptag" data-i18n="who3_tag1">Activiste</span>
+            <span class="ptag" data-i18n="who3_tag2">Bénévole</span>
+            <span class="ptag" data-i18n="who3_tag3">Visionnaire</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONFIANCE & RÉASSURANCE ========== -->
+  <section class="section trust-section" id="trust">
+    <div class="container">
+      <div class="trust-inner reveal">
+        <div class="trust-badges">
+          <div class="trust-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <span data-i18n="trust_data">Données protégées</span>
+          </div>
+          <div class="trust-badge featured">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span data-i18n="trust_free">Rejoindre est gratuit — Toujours.</span>
+          </div>
+          <div class="trust-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span data-i18n="trust_no_commitment">Sans engagement</span>
+          </div>
+          <div class="trust-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12c0-2.76 1.12-5.26 2.93-7.07"/><path d="M12 6v6l4 2"/></svg>
+            <span data-i18n="trust_mission">Projet à mission</span>
+          </div>
+        </div>
+        <p class="trust-microcopy" data-i18n="trust_microcopy">Pas de carte de crédit. Pas de spam. Juste une communauté.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRANSFORMATIONS / PROMESSES ========== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="promise_tag">La promesse</span>
+        <h2 class="section-headline centered" data-i18n-html="promise_h2">
+          Ce que les Fondateurs<br />
+          <span class="gradient-text">vivront.</span>
+        </h2>
+        <p class="section-subtext centered" data-i18n="promise_sub">Ce n'est pas ce que nous promettons. C'est ce que nous construisons ensemble.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card promise-card reveal">
+          <div class="promise-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            <span data-i18n="promise_badge">Transformation à venir</span>
+          </div>
+          <blockquote data-i18n="promise1_quote">
+            "J'ai finalement transformé mon idée en projet concret — avec des gens qui y croyaient autant que moi."
+          </blockquote>
+          <div class="promise-profile">
+            <div class="promise-icon blue">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div>
+              <div class="author-name" data-i18n="promise1_name">L'autodidacte ambitieux</div>
+              <div class="author-role" data-i18n="promise1_role">Celui qui apprend seul et veut passer à l'action</div>
+            </div>
+          </div>
+          <div class="testimonial-result">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="promise1_result">De l'idée isolée au projet collaboratif concret</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card promise-card reveal delay-1">
+          <div class="promise-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            <span data-i18n="promise_badge">Transformation à venir</span>
+          </div>
+          <blockquote data-i18n="promise2_quote">
+            "J'ai appris plus en 3 mois sur EcoCentium qu'en 2 ans de formation traditionnelle."
+          </blockquote>
+          <div class="promise-profile">
+            <div class="promise-icon green">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <div>
+              <div class="author-name" data-i18n="promise2_name">L'entrepreneur à impact</div>
+              <div class="author-role" data-i18n="promise2_role">Celui qui veut créer quelque chose d'utile</div>
+            </div>
+          </div>
+          <div class="testimonial-result">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="promise2_result">De la consommation passive à l'apprentissage par l'action</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card promise-card reveal delay-2">
+          <div class="promise-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            <span data-i18n="promise_badge">Transformation à venir</span>
+          </div>
+          <blockquote data-i18n="promise3_quote">
+            "J'ai trouvé ma tribu. Des gens ambitieux, engagés, qui m'ont poussé à aller plus loin que je ne l'aurais fait seul."
+          </blockquote>
+          <div class="promise-profile">
+            <div class="promise-icon aurora">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <div class="author-name" data-i18n="promise3_name">Le citoyen engagé</div>
+              <div class="author-role" data-i18n="promise3_role">Celui qui veut contribuer à quelque chose de plus grand</div>
+            </div>
+          </div>
+          <div class="testimonial-result">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="promise3_result">De la solitude à l'intelligence collective</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="promise-disclaimer reveal" data-i18n="promise_disclaimer">
+        Ces témoignages illustrent les transformations qu'EcoCentium est conçu pour créer. Ils seront remplacés par de vrais retours d'expérience au lancement.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="faq_tag">FAQ</span>
+        <h2 class="section-headline centered" data-i18n-html="faq_h2">
+          Des questions ?<br />
+          <span class="gradient-text">On a les réponses.</span>
+        </h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq1_q">C'est quoi EcoCentium exactement ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq1_a">EcoCentium est une plateforme éducative collaborative dont la mission est de réinventer l'éducation à travers la collaboration. Elle permet aux autodidactes ambitieux d'apprendre, de se fixer des objectifs, de collaborer avec d'autres et de construire des projets à impact réel — notamment autour des enjeux climatiques et sociaux.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq2_q">C'est gratuit ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq2_a">Rejoindre la liste d'attente est totalement gratuit et sans engagement. Au lancement, la plateforme sera accessible en version gratuite avec des fonctionnalités de base. Des options premium pourront être proposées plus tard pour des contenus avancés, mais l'accès à la communauté et aux modules principaux restera gratuit.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq3_q">Quand la plateforme sort-elle ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq3_a">Le lancement du MVP (version bêta) est prévu courant 2025. Les personnes inscrites sur la liste d'attente seront les premières à y avoir accès, en avant-première. C'est pourquoi il vaut mieux rejoindre maintenant — les premiers membres bénéficieront d'un accès prioritaire et d'avantages exclusifs.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq4_q">En quoi c'est différent de Coursera ou LinkedIn ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq4_a">Coursera et LinkedIn sont des plateformes de consommation de contenu ou de réseau professionnel. EcoCentium est une plateforme d'action. L'objectif n'est pas de collectionner des certificats ou des connexions — mais de transformer l'apprentissage en impact réel, grâce à la collaboration et à l'engagement communautaire. Nous mettons aussi l'écologie au centre, ce qu'aucune autre plateforme ne fait.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq5_q">Comment puis-je contribuer au projet ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq5_a">La meilleure façon de contribuer maintenant est de rejoindre la liste d'attente et de partager EcoCentium autour de toi. En rejoignant tôt, tu peux aussi devenir beta testeur, donner ton feedback sur les fonctionnalités, et même rejoindre l'équipe si tu as des compétences pertinentes. Contacte-nous directement.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq6_q">Y a-t-il un lien concret avec l'écologie ?</span>
+            <span class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq6_a">Oui, de manière fondamentale. EcoCentium intègre la lutte contre le changement climatique comme objectif central de la plateforme — pas comme une option marketing. Des problèmes environnementaux concrets sont proposés dans le module "Problème à résoudre", des objectifs collectifs sont orientés vers des projets à impact écologique, et la communauté est construite autour de ces valeurs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="section cta-final-section" id="cta-final">
+    <div class="cta-bg">
+      <div class="orb orb-cta-1"></div>
+      <div class="orb orb-cta-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-inner reveal">
+        <span class="section-tag" data-i18n="cta_tag">Rejoins le mouvement</span>
+        <h2 class="cta-headline" data-i18n-html="cta_h2">
+          Le monde a besoin de toi.<br />
+          <span class="gradient-text">Commence ici.</span>
+        </h2>
+        <p class="cta-subtext" data-i18n="cta_sub">
+          Rejoins les premiers membres fondateurs qui réinventent l'éducation et construisent des projets à impact. L'accès est gratuit, toujours.
+        </p>
+
+        <div class="multistep-form" id="multistep-form">
+
+          <!-- ── ÉTAPE 1 : Email ── -->
+          <div class="form-step" id="step-1">
+            <form class="cta-form" id="cta-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cta-email" data-i18n="cta_email_label">Adresse email</label>
+                  <input
+                    type="email"
+                    id="cta-email"
+                    name="email"
+                    placeholder="ton@email.com"
+                    data-i18n-placeholder="cta_email_placeholder"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg cta-submit">
+                  <span data-i18n="cta_submit">Rejoins les Fondateurs du mouvement</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+              </div>
+              <div class="form-error" id="form-error" aria-live="polite"></div>
+            </form>
+            <div class="cta-microcopy">
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                <span data-i18n="cta_micro1">Pas de carte de crédit</span>
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="cta_micro2">Accès prioritaire au lancement</span>
+              </span>
+              <span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                <span data-i18n="cta_micro3">Gratuit, toujours</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- ── ÉTAPE 2 : Profil ── -->
+          <div class="form-step hidden" id="step-2">
+            <p class="step2-label" data-i18n="step2_label">Une dernière chose...</p>
+            <h3 class="step2-title" data-i18n="step2_title">Qui es-tu ?</h3>
+            <p class="step2-sub" data-i18n="step2_sub">Ça nous aide à te préparer la meilleure expérience au lancement.</p>
+            <div class="profile-cards" id="profile-cards">
+              <button class="profile-card" data-profile="autodidacte" type="button">
+                <div class="profile-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                </div>
+                <span class="profile-card-label" data-i18n="profile1_label">Autodidacte ambitieux</span>
+                <span class="profile-card-desc" data-i18n="profile1_desc">J'apprends seul et je veux aller plus loin</span>
+              </button>
+              <button class="profile-card" data-profile="entrepreneur" type="button">
+                <div class="profile-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                </div>
+                <span class="profile-card-label" data-i18n="profile2_label">Entrepreneur à impact</span>
+                <span class="profile-card-desc" data-i18n="profile2_desc">Je veux créer un projet qui change les choses</span>
+              </button>
+              <button class="profile-card" data-profile="etudiant" type="button">
+                <div class="profile-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <span class="profile-card-label" data-i18n="profile3_label">Étudiant / en reconversion</span>
+                <span class="profile-card-desc" data-i18n="profile3_desc">Je cherche ma voie et un environnement stimulant</span>
+              </button>
+              <button class="profile-card" data-profile="citoyen" type="button">
+                <div class="profile-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <span class="profile-card-label" data-i18n="profile4_label">Citoyen engagé</span>
+                <span class="profile-card-desc" data-i18n="profile4_desc">Je veux contribuer à quelque chose de plus grand</span>
+              </button>
+            </div>
+            <button class="btn btn-primary btn-lg" id="confirm-profile" disabled>
+              <span data-i18n="confirm_profile">Confirmer mon profil</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </button>
+          </div>
+
+          <!-- ── ÉTAPE 3 : Succès ── -->
+          <div class="form-step hidden" id="step-3">
+            <div class="success-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="success-founder-number"><span data-i18n="success_founder">Fondateur</span> <span id="success-number">#1</span></div>
+            <h3 class="success-title" id="success-title" data-i18n="success_title_default">Bienvenue dans le mouvement !</h3>
+            <p class="success-message" id="success-message"></p>
+            <div class="success-share">
+              <p data-i18n="success_share_label">Partage EcoCentium avec quelqu'un qui devrait rejoindre le mouvement :</p>
+              <button class="btn btn-ghost btn-sm" id="share-btn" type="button">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                <span data-i18n="share_btn">Partager le mouvement</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo-link">
+            <img src="logo.png" alt="EcoCentium" class="footer-logo-img" />
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">Réinventons l'éducation à travers la collaboration.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 data-i18n="footer_col1">Plateforme</h4>
+          <ul>
+            <li><a href="#features" data-i18n="footer_link_features">Fonctionnalités</a></li>
+            <li><a href="#how" data-i18n="footer_link_how">Comment ça marche</a></li>
+            <li><a href="#for-who" data-i18n="footer_link_who">Pour qui</a></li>
+            <li><a href="#faq" data-i18n="footer_link_faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 data-i18n="footer_col2">Vision</h4>
+          <ul>
+            <li><a href="#vision" data-i18n="footer_link_mission">Notre mission</a></li>
+            <li><a href="#different" data-i18n="footer_link_why">Pourquoi EcoCentium</a></li>
+            <li><a href="#testimonials" data-i18n="footer_link_testimonials">Témoignages</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 data-i18n="footer_col3">Légal</h4>
+          <ul>
+            <li><a href="mentions-legales.html" data-i18n="footer_link_legal">Mentions légales</a></li>
+            <li><a href="politique-confidentialite.html" data-i18n="footer_link_privacy">Politique de confidentialité</a></li>
+            <li><a href="mailto:Alexis.Zebina@ecocentium.com" data-i18n="footer_link_contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_copy">© 2026 EcoCentium — Réinventons l'éducation à travers la collaboration.</p>
+        <p class="footer-made" data-i18n="footer_made">Fait avec ♥ pour la planète.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

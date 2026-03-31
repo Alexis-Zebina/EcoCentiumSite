@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — EcoCentium</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
+  <style>
+    .legal-page {
+      min-height: 100vh;
+      padding-top: 120px;
+      padding-bottom: 80px;
+      background: var(--color-bg);
+    }
+    .legal-container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 var(--space-6);
+    }
+    .legal-header {
+      margin-bottom: var(--space-12);
+    }
+    .legal-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-cta);
+      background: rgba(46, 134, 193, 0.1);
+      border: 1px solid rgba(46, 134, 193, 0.2);
+      padding: 4px 12px;
+      border-radius: var(--r-pill);
+      margin-bottom: var(--space-4);
+    }
+    .legal-title {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 700;
+      color: var(--color-text);
+      line-height: 1.2;
+      margin-bottom: var(--space-4);
+    }
+    .legal-update {
+      font-size: 13px;
+      color: var(--color-text-3);
+    }
+    .legal-content {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-6);
+    }
+    .legal-section {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--r-md);
+      padding: var(--space-8);
+    }
+    .legal-section h2 {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-5);
+      padding-bottom: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .legal-section p {
+      font-size: 15px;
+      color: var(--color-text-2);
+      line-height: 1.75;
+    }
+    .legal-section p + p {
+      margin-top: var(--space-4);
+    }
+    .legal-section ul {
+      list-style: none;
+      padding: 0;
+      margin: var(--space-4) 0 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+    .legal-section ul li {
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+      font-size: 15px;
+      color: var(--color-text-2);
+      line-height: 1.65;
+    }
+    .legal-section ul li::before {
+      content: "–";
+      color: var(--color-cta);
+      flex-shrink: 0;
+      font-weight: 700;
+      margin-top: 1px;
+    }
+    .legal-section a {
+      color: var(--color-cta);
+      text-decoration: none;
+    }
+    .legal-section a:hover {
+      text-decoration: underline;
+    }
+    .legal-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: var(--space-4);
+      font-size: 14px;
+    }
+    .legal-table th {
+      text-align: left;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-text-3);
+      padding: var(--space-3) var(--space-4);
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .legal-table td {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-text-2);
+      border-bottom: 1px solid rgba(42, 74, 107, 0.4);
+      vertical-align: top;
+      line-height: 1.6;
+    }
+    .legal-table tr:last-child td {
+      border-bottom: none;
+    }
+    .highlight-box {
+      background: rgba(46, 134, 193, 0.08);
+      border: 1px solid rgba(46, 134, 193, 0.2);
+      border-radius: var(--r-sm);
+      padding: var(--space-5) var(--space-6);
+      margin-top: var(--space-4);
+    }
+    .highlight-box p {
+      font-size: 14px !important;
+      color: var(--color-text-2) !important;
+    }
+    .legal-back {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-3);
+      text-decoration: none;
+      margin-bottom: var(--space-8);
+      transition: color 0.2s;
+    }
+    .legal-back:hover {
+      color: var(--color-cta);
+    }
+    @media (max-width: 600px) {
+      .legal-table th,
+      .legal-table td {
+        padding: var(--space-2) var(--space-3);
+        font-size: 13px;
+      }
+      .legal-section {
+        padding: var(--space-6);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="EcoCentium" class="nav-logo-img" />
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="mentions-legales.html" class="nav-link">Mentions légales</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENU -->
+  <main class="legal-page">
+    <div class="legal-container">
+
+      <a href="index.html" class="legal-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Retour à l'accueil
+      </a>
+
+      <div class="legal-header">
+        <span class="legal-tag">RGPD</span>
+        <h1 class="legal-title">Politique de confidentialité</h1>
+        <p class="legal-update">Dernière mise à jour : 30 mars 2026</p>
+      </div>
+
+      <div class="legal-content">
+
+        <!-- INTRO -->
+        <div class="legal-section">
+          <h2>1. Présentation et engagement</h2>
+          <p>
+            EcoCentium s'engage à protéger la vie privée des personnes qui visitent ce site et laissent leurs coordonnées. La présente politique de confidentialité vous informe sur la manière dont vos données personnelles sont collectées, utilisées et protégées, conformément au <strong>Règlement Général sur la Protection des Données (RGPD)</strong> — Règlement (UE) 2016/679 du 26 avril 2016.
+          </p>
+          <p>
+            Ce site est actuellement en phase de <strong>pré-lancement</strong>. La seule donnée collectée est l'adresse email, dans le cadre unique de la liste d'attente fondateurs.
+          </p>
+        </div>
+
+        <!-- RESPONSABLE DU TRAITEMENT -->
+        <div class="legal-section">
+          <h2>2. Responsable du traitement des données</h2>
+          <p>Le responsable du traitement des données à caractère personnel collectées sur ce site est :</p>
+          <div class="highlight-box">
+            <p><strong>Alexis Zebina</strong> — Particulier<br />
+            Paris, France<br />
+            Email : <a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a></p>
+          </div>
+        </div>
+
+        <!-- DONNÉES COLLECTÉES -->
+        <div class="legal-section">
+          <h2>3. Données collectées</h2>
+          <p>Le site EcoCentium collecte uniquement les données suivantes :</p>
+          <table class="legal-table">
+            <thead>
+              <tr>
+                <th>Donnée</th>
+                <th>Finalité</th>
+                <th>Caractère</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Adresse email</strong></td>
+                <td>Inscription sur la liste d'attente fondateurs et communication sur le lancement de la plateforme</td>
+                <td>Obligatoire pour l'inscription</td>
+              </tr>
+              <tr>
+                <td><strong>Profil choisi</strong> (Autodidacte, Entrepreneur, Étudiant, Autre)</td>
+                <td>Personnalisation de la communication pré-lancement</td>
+                <td>Optionnel</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin-top: var(--space-4);">
+            Aucune autre donnée n'est collectée. Il n'y a pas de cookies de traçage, pas d'outils d'analyse comportementale tiers (ex. Google Analytics), pas de pixels de remarketing.
+          </p>
+        </div>
+
+        <!-- BASE LÉGALE -->
+        <div class="legal-section">
+          <h2>4. Base légale du traitement</h2>
+          <p>
+            Le traitement de vos données repose sur votre <strong>consentement libre et éclairé</strong> (Article 6.1.a du RGPD), exprimé au moment de la saisie de votre adresse email dans le formulaire d'inscription.
+          </p>
+          <p>
+            Vous pouvez retirer ce consentement à tout moment en nous contactant à <a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a>, sans que cela ne porte atteinte à la légalité du traitement antérieur à ce retrait.
+          </p>
+        </div>
+
+        <!-- DURÉE DE CONSERVATION -->
+        <div class="legal-section">
+          <h2>5. Durée de conservation</h2>
+          <p>Vos données sont conservées :</p>
+          <ul>
+            <li>Jusqu'au lancement officiel de la plateforme EcoCentium, ou</li>
+            <li>Jusqu'à votre demande de suppression, si elle intervient avant le lancement, ou</li>
+            <li>Au maximum <strong>3 ans</strong> à compter de votre inscription si la plateforme n'est pas lancée.</li>
+          </ul>
+          <p style="margin-top: var(--space-4);">
+            À l'issue de cette durée, vos données seront définitivement supprimées.
+          </p>
+        </div>
+
+        <!-- DESTINATAIRES -->
+        <div class="legal-section">
+          <h2>6. Destinataires des données</h2>
+          <p>
+            Vos données ne sont pas vendues, cédées ou louées à des tiers. Elles peuvent être transmises uniquement à des prestataires techniques nécessaires au fonctionnement du service de communication (ex. plateforme d'envoi d'emails), agissant en qualité de sous-traitants et liés par des obligations de confidentialité.
+          </p>
+          <p>
+            Ces sous-traitants sont sélectionnés pour leur conformité au RGPD. Actuellement, en phase de pré-lancement, les emails peuvent être stockés temporairement via un service conforme au RGPD. Vous serez informé de tout changement significatif dans la gestion de vos données.
+          </p>
+        </div>
+
+        <!-- COOKIES -->
+        <div class="legal-section">
+          <h2>7. Cookies et stockage local</h2>
+          <p>
+            Ce site n'utilise <strong>pas de cookies</strong> de traçage ou de profilage. Le seul stockage utilisé est le <strong>localStorage</strong> de votre navigateur, à des fins purement techniques et locales :
+          </p>
+          <ul>
+            <li>Mémoriser votre numéro de membre fondateur affiché sur la page (donnée stockée uniquement sur votre propre appareil, non transmise).</li>
+          </ul>
+          <p style="margin-top: var(--space-4);">
+            Ce stockage local ne contient aucune donnée personnelle identifiable et peut être effacé à tout moment en vidant les données de votre navigateur.
+          </p>
+        </div>
+
+        <!-- VOS DROITS -->
+        <div class="legal-section">
+          <h2>8. Vos droits</h2>
+          <p>
+            Conformément au RGPD et à la loi Informatique et Libertés modifiée, vous disposez des droits suivants concernant vos données personnelles :
+          </p>
+          <ul>
+            <li><strong>Droit d'accès</strong> — obtenir confirmation que vos données sont traitées et en recevoir une copie.</li>
+            <li><strong>Droit de rectification</strong> — corriger vos données si elles sont inexactes ou incomplètes.</li>
+            <li><strong>Droit à l'effacement</strong> ("droit à l'oubli") — demander la suppression de vos données.</li>
+            <li><strong>Droit d'opposition</strong> — vous opposer à tout moment au traitement de vos données.</li>
+            <li><strong>Droit à la limitation du traitement</strong> — demander la suspension du traitement dans certains cas.</li>
+            <li><strong>Droit à la portabilité</strong> — recevoir vos données dans un format structuré et lisible par machine.</li>
+            <li><strong>Droit de retrait du consentement</strong> — retirer votre consentement à tout moment, sans justification.</li>
+          </ul>
+          <div class="highlight-box">
+            <p>
+              Pour exercer l'un de ces droits, contactez-nous par email : <a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a><br />
+              Nous nous engageons à vous répondre dans un délai maximum de <strong>30 jours</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- CNIL -->
+        <div class="legal-section">
+          <h2>9. Droit de réclamation auprès de la CNIL</h2>
+          <p>
+            Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous avez le droit d'introduire une réclamation auprès de la <strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong> :
+          </p>
+          <ul>
+            <li>Site web : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a></li>
+            <li>Adresse : 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07</li>
+            <li>Téléphone : +33 (0)1 53 73 22 22</li>
+          </ul>
+        </div>
+
+        <!-- SÉCURITÉ -->
+        <div class="legal-section">
+          <h2>10. Sécurité des données</h2>
+          <p>
+            Nous mettons en œuvre les mesures techniques et organisationnelles appropriées pour protéger vos données contre la perte, l'utilisation abusive, l'accès non autorisé, la divulgation, l'altération ou la destruction. Ces mesures sont adaptées au niveau de risque présenté par le traitement et à la nature des données protégées.
+          </p>
+        </div>
+
+        <!-- MODIFICATIONS -->
+        <div class="legal-section">
+          <h2>11. Modifications de la politique</h2>
+          <p>
+            Cette politique de confidentialité peut être mise à jour pour refléter l'évolution du service ou des obligations légales. En cas de modification substantielle, vous en serez informé par email si vous êtes inscrit sur la liste d'attente.
+          </p>
+          <p>
+            La date de dernière mise à jour est indiquée en haut de ce document. Nous vous encourageons à consulter régulièrement cette page.
+          </p>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="legal-section">
+          <h2>12. Contact</h2>
+          <p>
+            Pour toute question relative à la présente politique ou à la gestion de vos données personnelles :
+          </p>
+          <div class="highlight-box">
+            <p>
+              <strong>Alexis Zebina</strong><br />
+              Email : <a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a><br />
+              Délai de réponse : sous 30 jours
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER SIMPLIFIÉ -->
+  <footer style="background: var(--color-surface); border-top: 1px solid var(--color-border); padding: var(--space-8) 0; text-align: center;">
+    <div class="container">
+      <p style="font-size: 13px; color: var(--color-text-3);">
+        © 2026 EcoCentium — 
+        <a href="mentions-legales.html" style="color: var(--color-text-3); text-decoration: none;">Mentions légales</a> · 
+        <a href="politique-confidentialite.html" style="color: var(--color-text-3); text-decoration: none;">Politique de confidentialité</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+</body>
+</html>

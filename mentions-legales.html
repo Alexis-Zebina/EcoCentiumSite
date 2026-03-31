@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentions légales — EcoCentium</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
+  <style>
+    .legal-page {
+      min-height: 100vh;
+      padding-top: 120px;
+      padding-bottom: 80px;
+      background: var(--color-bg);
+    }
+    .legal-container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 var(--space-6);
+    }
+    .legal-header {
+      margin-bottom: var(--space-12);
+    }
+    .legal-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-cta);
+      background: rgba(46, 134, 193, 0.1);
+      border: 1px solid rgba(46, 134, 193, 0.2);
+      padding: 4px 12px;
+      border-radius: var(--r-pill);
+      margin-bottom: var(--space-4);
+    }
+    .legal-title {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 700;
+      color: var(--color-text);
+      line-height: 1.2;
+      margin-bottom: var(--space-4);
+    }
+    .legal-update {
+      font-size: 13px;
+      color: var(--color-text-3);
+    }
+    .legal-content {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-10);
+    }
+    .legal-section {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--r-md);
+      padding: var(--space-8);
+    }
+    .legal-section h2 {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-5);
+      padding-bottom: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .legal-section p,
+    .legal-section li {
+      font-size: 15px;
+      color: var(--color-text-2);
+      line-height: 1.75;
+    }
+    .legal-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+    .legal-section ul li {
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+    }
+    .legal-section ul li::before {
+      content: "–";
+      color: var(--color-cta);
+      flex-shrink: 0;
+      font-weight: 700;
+      margin-top: 1px;
+    }
+    .legal-section a {
+      color: var(--color-cta);
+      text-decoration: none;
+    }
+    .legal-section a:hover {
+      text-decoration: underline;
+    }
+    .legal-info-row {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: var(--space-3) var(--space-5);
+      align-items: start;
+    }
+    .legal-info-row dt {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-text-3);
+      padding-top: 2px;
+    }
+    .legal-info-row dd {
+      font-size: 15px;
+      color: var(--color-text-2);
+      line-height: 1.6;
+      margin: 0;
+    }
+    .legal-back {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-3);
+      text-decoration: none;
+      margin-bottom: var(--space-8);
+      transition: color 0.2s;
+    }
+    .legal-back:hover {
+      color: var(--color-cta);
+    }
+    @media (max-width: 480px) {
+      .legal-info-row {
+        grid-template-columns: 1fr;
+        gap: var(--space-2);
+      }
+      .legal-section {
+        padding: var(--space-6);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="EcoCentium" class="nav-logo-img" />
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="politique-confidentialite.html" class="nav-link">Confidentialité</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENU LÉGAL -->
+  <main class="legal-page">
+    <div class="legal-container">
+
+      <a href="index.html" class="legal-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Retour à l'accueil
+      </a>
+
+      <div class="legal-header">
+        <span class="legal-tag">Légal</span>
+        <h1 class="legal-title">Mentions légales</h1>
+        <p class="legal-update">Dernière mise à jour : 30 mars 2026</p>
+      </div>
+
+      <div class="legal-content">
+
+        <!-- ÉDITEUR -->
+        <div class="legal-section">
+          <h2>1. Éditeur du site</h2>
+          <p style="margin-bottom: var(--space-5);">
+            Conformément à l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), les informations relatives à l'éditeur du présent site sont les suivantes :
+          </p>
+          <dl class="legal-info-row">
+            <dt>Nom</dt>
+            <dd>Alexis Zebina</dd>
+            <dt>Qualité</dt>
+            <dd>Particulier</dd>
+            <dt>Ville</dt>
+            <dd>Paris, France</dd>
+            <dt>Email</dt>
+            <dd><a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a></dd>
+            <dt>Site</dt>
+            <dd><a href="https://www.ecocentium.com">www.ecocentium.com</a></dd>
+          </dl>
+        </div>
+
+        <!-- DIRECTEUR DE PUBLICATION -->
+        <div class="legal-section">
+          <h2>2. Directeur de la publication</h2>
+          <p>Le directeur de la publication du site <strong>EcoCentium</strong> est <strong>Alexis Zebina</strong>.</p>
+        </div>
+
+        <!-- HÉBERGEUR -->
+        <div class="legal-section">
+          <h2>3. Hébergeur</h2>
+          <p style="margin-bottom: var(--space-5);">Le site EcoCentium est hébergé par :</p>
+          <dl class="legal-info-row">
+            <dt>Société</dt>
+            <dd>IONOS SE</dd>
+            <dt>Adresse</dt>
+            <dd>Elgendorfer Str. 57, 56410 Montabaur, Allemagne</dd>
+            <dt>Site web</dt>
+            <dd><a href="https://www.ionos.fr" target="_blank" rel="noopener noreferrer">www.ionos.fr</a></dd>
+          </dl>
+        </div>
+
+        <!-- PROPRIÉTÉ INTELLECTUELLE -->
+        <div class="legal-section">
+          <h2>4. Propriété intellectuelle</h2>
+          <p>
+            L'ensemble des éléments composant le site EcoCentium (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) sont protégés par les lois en vigueur relatives à la propriété intellectuelle. Ces éléments sont la propriété exclusive d'Alexis Zebina.
+          </p>
+          <p style="margin-top: var(--space-4);">
+            Toute reproduction, représentation, modification, publication, transmission ou dénaturation de tout ou partie de ces éléments, quelle que soit la forme utilisée, est interdite sans l'autorisation préalable écrite d'Alexis Zebina.
+          </p>
+        </div>
+
+        <!-- RESPONSABILITÉ -->
+        <div class="legal-section">
+          <h2>5. Limitation de responsabilité</h2>
+          <p>
+            Le site EcoCentium est actuellement en phase de pré-lancement. Les informations présentées sont données à titre indicatif et peuvent évoluer. Alexis Zebina s'efforce de maintenir les informations disponibles sur ce site aussi précises et à jour que possible.
+          </p>
+          <p style="margin-top: var(--space-4);">
+            Alexis Zebina ne saurait être tenu responsable des dommages directs ou indirects pouvant résulter de l'accès au site ou de l'utilisation des informations qu'il contient.
+          </p>
+        </div>
+
+        <!-- LIENS EXTERNES -->
+        <div class="legal-section">
+          <h2>6. Liens hypertextes</h2>
+          <p>
+            Le site EcoCentium peut contenir des liens vers des sites tiers. Ces liens sont fournis à titre informatif uniquement. Alexis Zebina n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leur politique de confidentialité.
+          </p>
+        </div>
+
+        <!-- DROIT APPLICABLE -->
+        <div class="legal-section">
+          <h2>7. Droit applicable et juridiction compétente</h2>
+          <p>
+            Les présentes mentions légales sont soumises au droit français. En cas de litige, les tribunaux compétents sont ceux du ressort du domicile d'Alexis Zebina, sauf disposition légale contraire.
+          </p>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="legal-section">
+          <h2>8. Contact</h2>
+          <p>
+            Pour toute question relative aux présentes mentions légales, vous pouvez contacter l'éditeur à l'adresse suivante : <a href="mailto:Alexis.Zebina@ecocentium.com">Alexis.Zebina@ecocentium.com</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER SIMPLIFIÉ -->
+  <footer style="background: var(--color-surface); border-top: 1px solid var(--color-border); padding: var(--space-8) 0; text-align: center;">
+    <div class="container">
+      <p style="font-size: 13px; color: var(--color-text-3);">
+        © 2026 EcoCentium — 
+        <a href="mentions-legales.html" style="color: var(--color-text-3); text-decoration: none;">Mentions légales</a> · 
+        <a href="politique-confidentialite.html" style="color: var(--color-text-3); text-decoration: none;">Politique de confidentialité</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll behavior
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+</body>
+</html>
