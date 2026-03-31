@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             FIRSTNAME: profileNames[profile] || profile,
             LASTNAME: `Fondateur #${founderNum}`
           },
-          listIds: [2],
+          listIds: [7],
           updateEnabled: true
         })
       });
