@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ── Envoi vers Brevo ── */
   async function addToBrevo(email, profile, founderNum, lang) {
-    const BREVO_API_KEY = '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';
+    const BREVO_API_KEY = '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';
     const profileNames = {
       autodidacte:  'Autodidacte ambitieux',
       entrepreneur: 'Entrepreneur à impact',
